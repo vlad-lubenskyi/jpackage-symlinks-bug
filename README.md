@@ -61,7 +61,7 @@ leads to an incorrect directory structure and respective `codesign` failure.
         --type app-image \
         --mac-package-identifier com.example.nested.bundles \
         --mac-package-name "Nested bundles example" \
-        --verbose \
+        --verbose
    ```
 4. Once the task fails, take a look at the error:
 
