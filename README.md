@@ -63,7 +63,7 @@ leads to an incorrect directory structure and respective `codesign` failure.
         --mac-package-name "Nested bundles example" \
         --verbose
    ```
-4. Once the task fails, take a look at the error:
+4. Once the command fails, take a look at the error:
 
    ```text
    Caused by: java.io.IOException: Command
@@ -84,7 +84,7 @@ leads to an incorrect directory structure and respective `codesign` failure.
 
 7. Analyze the contents of result directory:
 
-   ```text
+   ```bash
    # No symlinks will be found. Only materialized files.
    ls -Al build/jpackage-result/Nested bundles example.app/Contents/Helpers/Chromium.app/Contents/Frameworks/Chromium Framework.framework
    ```
