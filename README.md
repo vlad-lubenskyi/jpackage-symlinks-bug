@@ -1,4 +1,4 @@
-# Demo for a symlink-related bug in jpackage
+# Demo for a symlink-related bug in jpackage (JDK-8352480)
 
 ## Requirements
 
