@@ -7,7 +7,7 @@
 
 ## Description
 
-In [JDK-8274346](https://bugs.openjdk.org/browse/JDK-8274346), `jpackage` got a new parameter `--app-conteont`,
+In [JDK-8274346](https://bugs.openjdk.org/browse/JDK-8274346), `jpackage` got a new parameter `--app-content`,
 which added the ability to configure arbitrary additional content for the app.
 
 The implemented solution recursively copies the content and follows the symlinks,
